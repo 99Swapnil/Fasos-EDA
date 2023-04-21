@@ -274,7 +274,7 @@ select * from driver_order;
 
 select max(duration)-min(duration) from driver_order;
 
-# Alternative, includeing data cleaning 
+# Alternative, including data cleaning 
 
 select max(duration)-min(duration) from
 (select left(duration, 2) duration from 
